@@ -9,7 +9,7 @@
 <template>
     <v-card elevation="0" color="" class="my-10">
         <v-row>
-            <v-col cols="7" >
+            <v-col cols="7">
                 <v-img :src="project.image"></v-img>
             </v-col>
             <v-col cols="5" class="mt-10">
