@@ -5,6 +5,7 @@
     import About from './About.vue'
     import Projects from './Projects.vue'
     import Contact from './Contact.vue'
+    import Footer from './Footer.vue'
 
     function scrollToSection(section) {
         console.log(section)
@@ -16,9 +17,18 @@
 <template>
     <Navbar @navigate="scrollToSection" />
     <Home id="home" @navigate="scrollToSection" />
-    <v-container fluid>
-        <About id="about" @navigate="scrollToSection" />
-        <Projects id="projects" />
-        <Contact id="contact" />
-    </v-container>
+    <v-divider/>
+    <About id="about" @navigate="scrollToSection" />
+    <Projects id="projects" />
+    <Contact id="contact" />
+    <Footer @navigate="scrollToSection" />
 </template>
+
+<style>
+
+    #free-up-space {
+        height: 100px;
+        width: 100%
+    }
+
+</style>

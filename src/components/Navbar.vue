@@ -10,7 +10,7 @@
         <v-toolbar-title>
             <v-list-item>
                 <template v-slot:prepend>
-                    <v-avatar size="50">
+                    <v-avatar size="50" @click="$emit('navigate', 'home')">
                         <v-img src="me.jpg"></v-img>
                     </v-avatar>
                 </template>
@@ -26,6 +26,7 @@
         <v-btn variant="plain" size="large" @click="$emit('navigate', 'contact')" :ripple="false" class="me-2"> CONTACT </v-btn>
 
     </v-app-bar>
+    <router-view></router-view>
 </template>
 
 <style scoped>
@@ -36,6 +37,10 @@
 
     p:hover {
         color: #4CAF50;
+        cursor: pointer;
+    }
+
+    .v-avatar {
         cursor: pointer;
     }
 
