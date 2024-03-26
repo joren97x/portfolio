@@ -1,10 +1,15 @@
+<script setup>
+
+    import Index from './components/Index.vue'
+
+</script>
+
 <template>
-  <v-app>
-    <v-main>
-        <router-view></router-view>
-    </v-main>
-  </v-app>
+    <v-app>
+        <v-main>
+            <Index/>
+        </v-main>
+    </v-app>
 </template>
 
-<script>
-</script>
+
