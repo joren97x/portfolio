@@ -7,7 +7,7 @@
             <p class="text-h3 text-center font-weight-bold">Contact</p>
             <p class="text-center mt-10">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
             
-            <v-card elevation="15" width="70%">
+            <v-card elevation="15" width="auto">
                 <v-card-item>
                     <v-text-field variant="solo-filled" placeholder="Enter your name" label="Name"></v-text-field>
                     <v-text-field variant="solo-filled" placeholder="Enter your email" label="Email"></v-text-field>

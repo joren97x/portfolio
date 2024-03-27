@@ -4,11 +4,11 @@
     <v-container fluid class="bg-black">
         <v-container>
             <v-row>
-                <v-col cols="9">
+                <v-col cols="12" sm="8" md="9">
                     <p class="font-weight-bold text-h6 my-6">Joren Sumagang</p>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Veniam deserunt accusamus ullam laboriosam. Quos aspernatur incidunt, dignissimos fugi</p>
                 </v-col>
-                <v-col cols="3" class="mb-6">
+                <v-col cols="12" sm="4" md="3" class="mb-6">
                     <p class="font-weight-bold text-h6 my-6">Social</p>
                     <div>
                         

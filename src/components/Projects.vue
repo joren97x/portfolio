@@ -60,7 +60,7 @@
         <v-container>
             <div id="free-up-space"></div>
             <p class="text-h3 text-center font-weight-bold">Projects</p>
-            <p class="text-center mt-10">Here you will find more information about me, what I do, and my current skills mostly in terms <br> of programming and technology</p>
+            <p class="text-center mt-10">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
             <ProjectCard v-for="project in projects" :project="project" :key="project.name"/>
         </v-container>
     </v-container>

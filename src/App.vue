@@ -5,6 +5,7 @@
 </script>
 
 <template>
+    <Head title="Joren Sumagang"/>
     <v-app>
         <v-main>
             <Index/>

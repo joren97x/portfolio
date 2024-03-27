@@ -16,6 +16,7 @@
 
 <template>
     <Navbar @navigate="scrollToSection" />
+    <!-- <p class="text-h6">{{ $vuetify.display }}</p> -->
     <Home id="home" @navigate="scrollToSection" />
     <v-divider/>
     <About id="about" @navigate="scrollToSection" />
