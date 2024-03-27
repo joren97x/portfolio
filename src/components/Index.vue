@@ -8,7 +8,6 @@
     import Footer from './Footer.vue'
 
     function scrollToSection(section) {
-        console.log(section)
         document.getElementById(section).scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 

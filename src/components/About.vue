@@ -3,15 +3,15 @@
     const skills = [
         'HTML',
         'CSS',
-        'Javascript',
         'PHP',
         'MySQL',
+        'Vue.js',
+        'Quasar',
+        'Javascript',
         'Firebase',
         'Express',
-        'Vue.js',
         'Vuetify',
         'Laravel',
-        'Quasar',
         'REST API'
     ]
 
@@ -35,7 +35,7 @@
                 </v-col>
                 <v-col md="6" cols="12">
                     <p class="text-h5 font-weight-bold title">My skills</p>
-                    <v-chip label class="mx-2 mb-2 pa-5" size="large" v-for="skill in skills" :key="skill">{{ skill }}</v-chip>
+                    <v-chip label class="mx-2 mb-2 pa-5" v-for="skill in skills" :key="skill">{{ skill }}</v-chip>
                 </v-col>
             </v-row>
         </v-container>

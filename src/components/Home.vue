@@ -3,13 +3,13 @@
 <template>
     <v-container fluid class="text-center" style="height: 80vh">
         <div id="free-up-space"></div>
-        <p class="font-weight-bold text-h2 name">Hey, I'm Joren Sumagang</p>
+        <p id="name" :class="['font-weight-bold', 'name', $vuetify.display.smAndDown ? 'text-h4' : 'text-h2']">Hey, I'm Joren Sumagang</p>
         <v-row justify="center">
             <v-col cols="12" sm="12" md="10"  class="subname font-weight-regular">
-                <p class="mx-10">
+                <p>
                     10k Roses was soooo mid bruh, only because when I went on the top of the building, a girl was screaming for her life
-                and I grabbed her by the waist and whispered “darling, it's okay for the king has arrived”. 
-                Her heart fluttered with every vocal change, her liquidity differed with every step.
+                    and I grabbed her by the waist and whispered “darling, it's okay for the king has arrived”. 
+                    Her heart fluttered with every vocal change, her liquidity differed with every step.
                 </p>
             </v-col>
         </v-row>
@@ -19,7 +19,7 @@
                     <v-btn href="https://github.com/joren97x" target="_blank" size="60" variant="flat" rounded="0" density="compact"> <v-icon size="35">mdi-github</v-icon> </v-btn>
                     <v-btn href="https://www.facebook.com/joren97x" target="_blank" size="60" variant="flat" rounded="0" density="compact"> <v-icon size="35">mdi-facebook</v-icon> </v-btn>
                     <v-btn href="https://www.instagram.com/joren97x" target="_blank" size="60" variant="flat" rounded="0" density="compact"> <v-icon size="35">mdi-instagram</v-icon> </v-btn>
-                    <v-btn href="https://www.roblox.com/users/1362775969/profile" target="_blank" size="60" variant="flat" rounded="0" density="compact"> <v-icon size="35">mdi-bitbucket</v-icon> </v-btn>
+                    <v-btn href="https://open.spotify.com/user/31j7mhgyggfkatw6s75x7zawlgbi" target="_blank" size="60" variant="flat" rounded="0" density="compact"> <v-icon size="35">mdi-spotify</v-icon> </v-btn>
                 </div>
             </div>
     </v-container>

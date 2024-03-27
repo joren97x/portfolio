@@ -26,7 +26,7 @@
         <v-toolbar-title>
             <v-list-item>
                 <template v-slot:prepend>
-                    <v-avatar size="50" @click="$emit('navigate', 'home')">
+                    <v-avatar size="50" @click="$emit('navigate', 'home')" v-if="$vuetify.display.width > 400">
                         <v-img src="/portfolio/me.jpg"></v-img>
                     </v-avatar>
                 </template>
@@ -37,7 +37,7 @@
         <template v-slot:append>
             <div v-if="$vuetify.display.smAndDown">
                 <v-btn variant="plain" size="large" :ripple="false" @click="show_menu = !show_menu" class="me-2"> 
-                    <v-icon size="x-large">mdi-menu</v-icon>
+                    <v-icon size="x-large">{{ show_menu ? 'mdi-close' : 'mdi-menu' }}</v-icon>
                 </v-btn>
             </div>
             <div v-else>
