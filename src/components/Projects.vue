@@ -29,11 +29,11 @@
             name: 'Weight tracker',
             description: `a simple project i made to track my weight (i only made 1 kg ahahha)`,
             image: [
-                '/portfolio/weight-tracker-5.png',
-                '/portfolio/weight-tracker-2.png',
-                '/portfolio/weight-tracker-1.png',
-                '/portfolio/weight-tracker-4.png',
-                '/portfolio/weight-tracker-3.png'
+                '/portfolio/weight-tracker-5.PNG',
+                '/portfolio/weight-tracker-2.PNG',
+                '/portfolio/weight-tracker-1.PNG',
+                '/portfolio/weight-tracker-4.PNG',
+                '/portfolio/weight-tracker-3.PNG'
             ],
             overview: `
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
@@ -55,10 +55,10 @@
             name: 'Todo plus',
             description: `enhanced or upgraded version of a to-do app`,
             image: [
-                '/portfolio/taskplus.png',
-                '/portfolio/taskplus-1-.png',
-                '/portfolio/taskplus-2-png.png',
-                '/portfolio/taskplus-3-.png',
+                '/portfolio/taskplus.PNG',
+                '/portfolio/taskplus-1-.PNG',
+                '/portfolio/taskplus-2-PNG.PNG',
+                '/portfolio/taskplus-3-.PNG',
             ],
             overview: `
 
@@ -80,14 +80,14 @@
             name: 'Recipe Hub',
             description: `a website where you can share your recipes.`,
             image: [
-                '/portfolio/recipe-hub-1.png',
-                '/portfolio/recipe-hub-2.png',
-                '/portfolio/recipe-hub-3.png',
-                '/portfolio/recipe-hub-4.png',
-                '/portfolio/recipe-hub-5.png',
-                '/portfolio/recipe-hub-6.png',
-                '/portfolio/recipe-hub-7.png',
-                '/portfolio/recipe-hub-8.png'
+                '/portfolio/recipe-hub-1.PNG',
+                '/portfolio/recipe-hub-2.PNG',
+                '/portfolio/recipe-hub-3.PNG',
+                '/portfolio/recipe-hub-4.PNG',
+                '/portfolio/recipe-hub-5.PNG',
+                '/portfolio/recipe-hub-6.PNG',
+                '/portfolio/recipe-hub-7.PNG',
+                '/portfolio/recipe-hub-8.PNG'
             ],
             overview: `
             This the final project of one of my subjects. The project requires us to do laravel sanctum authentication tokens, CRUD operations.
@@ -107,15 +107,15 @@
             description: `i really dont know whats the purpose of this website tbh, 
             but this is a website where each barangay can post about what's happening in their barangay or some`,
             image: [
-                '/portfolio/cmuh-1.png',    
-                '/portfolio/cmuh-6-.png',
-                '/portfolio/cmuh-7-.png',
-                '/portfolio/cmuh-2.png',
-                '/portfolio/cmuh-3-.png',
-                '/portfolio/cmuh-4-.png',
-                '/portfolio/cmuh-5-.png',
-                '/portfolio/cmuh-8-.png',
-                '/portfolio/cmuh-9-.png'
+                '/portfolio/cmuh-1.PNG',    
+                '/portfolio/cmuh-6-.PNG',
+                '/portfolio/cmuh-7-.PNG',
+                '/portfolio/cmuh-2.PNG',
+                '/portfolio/cmuh-3-.PNG',
+                '/portfolio/cmuh-4-.PNG',
+                '/portfolio/cmuh-5-.PNG',
+                '/portfolio/cmuh-8-.PNG',
+                '/portfolio/cmuh-9-.PNG'
             ],
             overview: `
                 
@@ -166,15 +166,15 @@
             user roles: students and administrators (admin)." - chatgpt
             `,
             image: [
-                '/portfolio/account-management-3-.png',    
-                '/portfolio/account-management-1.png',    
-                '/portfolio/account-management-2-.png',    
-                '/portfolio/account-management-4-.png',    
-                '/portfolio/account-management-5-.png',    
-                '/portfolio/account-management-6-.png',    
-                '/portfolio/account-management-7-.png',    
-                '/portfolio/account-management-8-.png',    
-                '/portfolio/account-management-9-.png' 
+                '/portfolio/account-management-3-.PNG',    
+                '/portfolio/account-management-1.PNG',    
+                '/portfolio/account-management-2-.PNG',    
+                '/portfolio/account-management-4-.PNG',    
+                '/portfolio/account-management-5-.PNG',    
+                '/portfolio/account-management-6-.PNG',    
+                '/portfolio/account-management-7-.PNG',    
+                '/portfolio/account-management-8-.PNG',    
+                '/portfolio/account-management-9-.PNG' 
             ],
             overview: `
                 final project in some subject
