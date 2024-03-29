@@ -14,7 +14,16 @@
             <v-col cols="12" md="7" sm="12">
                 <v-tooltip text="Click me to see screenshots" location="top">
                     <template v-slot:activator="{ props }">
-                        <v-img height="400" v-bind="props" :src="project.image[0]" @click="dialog = true"></v-img>
+                        <v-img height="400" v-bind="props" :src="project.image[0]" @click="dialog = true">
+                            <template v-slot:placeholder>
+                                <div class="d-flex align-center justify-center fill-height">
+                                    <v-progress-circular
+                                    color="grey-lighten-4"
+                                    indeterminate
+                                    ></v-progress-circular>
+                                </div>
+                            </template>
+                        </v-img>
                     </template>
                 </v-tooltip>
             </v-col>
