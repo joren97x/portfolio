@@ -2,6 +2,8 @@
 
     import { ref } from 'vue'
     defineProps({ project: Object })
+
+    const dialog = ref(false)
     const show_details = ref(false)
 
 </script>
@@ -10,7 +12,11 @@
     <v-card elevation="0" color="" class="my-10">
         <v-row>
             <v-col cols="12" md="7" sm="12">
-                <v-img :src="project.image"></v-img>
+                <v-tooltip text="Click me to see screenshots" location="top">
+                    <template v-slot:activator="{ props }">
+                        <v-img height="400" v-bind="props" :src="project.image[0]" @click="dialog = true"></v-img>
+                    </template>
+                </v-tooltip>
             </v-col>
             <v-col cols="12" md="5" sm="12">
                 <v-card-item>
@@ -42,4 +48,25 @@
             </div>
         </v-expand-transition>
     </v-card>
+    <v-dialog v-model="dialog">
+        <v-row>
+            <v-spacer/>
+            <v-btn icon="mdi-close" @click="dialog = false"></v-btn>
+        </v-row>
+        <v-carousel show-arrows="hover" hide-delimiter-background>
+            <v-carousel-item
+                v-for="image in project.image"
+                :key="image"
+                :src="image"
+            ></v-carousel-item>
+            </v-carousel>
+    </v-dialog>
 </template>
+
+<style scoped>
+
+    .v-img {
+        cursor: pointer;
+    }
+
+</style>

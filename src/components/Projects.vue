@@ -4,11 +4,11 @@
 
     const projects = [
         {
-            name: 'project-1',
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-            ex ea commodo consequat. Duis aute irure`,
-            image: 'https://cdn.vuetifyjs.com/images/parallax/material.jpg',
+            name: 'Standard calculator',
+            description: `just a calculator, nothing special`,
+            image: [
+                '/portfolio/calcu.png'
+            ],
             overview: `
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
@@ -20,36 +20,173 @@
             Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
             `,
             tools_used: [
-                'vuejs',
-                'vuetify',
-                'laravel',
-                'html'
+                'java',
+                'my insanity'
             ],
             link: 'https://google.com'
         },
         {
-            name: 'Project 2',
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-            ex ea commodo consequat. Duis aute irure`,
-            image: 'https://cdn.vuetifyjs.com/images/parallax/material.jpg',
+            name: 'Weight tracker',
+            description: `a simple project i made to track my weight (i only made 1 kg ahahha)`,
+            image: [
+                '/portfolio/weight-tracker-5.png',
+                '/portfolio/weight-tracker-2.png',
+                '/portfolio/weight-tracker-1.png',
+                '/portfolio/weight-tracker-4.png',
+                '/portfolio/weight-tracker-3.png'
+            ],
             overview: `
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
             fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
             mollit anim id est laborum
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam 
-            rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+            Sed ut perspiciati.
             `,
             tools_used: [
+                'firebase',
+                'chart.js',
+                'vue.js',
+                'vuetify',
+            ],
+            link: 'https://github.com/joren97x/weight-tracker'
+        },
+        {
+            name: 'Todo plus',
+            description: `enhanced or upgraded version of a to-do app`,
+            image: [
+                '/portfolio/taskplus.png',
+                '/portfolio/taskplus-1-.png',
+                '/portfolio/taskplus-2-png.png',
+                '/portfolio/taskplus-3-.png',
+            ],
+            overview: `
+
+            made this project to learn express, pinia, sequelize and jsonwebtoken
+            `,
+            tools_used: [
+                'axios',
+                'pinia',
                 'vuejs',
                 'vuetify',
-                'chart.js',
-                'axios'
+                'jsonwebtoken',
+                'sequelize',
+                'express',
+                'mysql'
             ],
-            link: 'https:google.com'
+            link: 'https://github.com/joren97x/task-management-system'
+        },
+        {
+            name: 'Recipe Hub',
+            description: `a website where you can share your recipes.`,
+            image: [
+                '/portfolio/recipe-hub-1.png',
+                '/portfolio/recipe-hub-2.png',
+                '/portfolio/recipe-hub-3.png',
+                '/portfolio/recipe-hub-4.png',
+                '/portfolio/recipe-hub-5.png',
+                '/portfolio/recipe-hub-6.png',
+                '/portfolio/recipe-hub-7.png',
+                '/portfolio/recipe-hub-8.png'
+            ],
+            overview: `
+            This the final project of one of my subjects. The project requires us to do laravel sanctum authentication tokens, CRUD operations.
+                Laravel for backend and vuejs for frontend and api to connect these two mfs.
+            `,
+            tools_used: [
+                'axios',
+                'pinia',
+                'vuejs',
+                'vuetify',
+                'laravel',
+            ],
+            link: 'https://github.com/joren97x/recipe-hub'
+        },
+        {
+            name: 'Cordova Municipality Update Hub',
+            description: `i really dont know whats the purpose of this website tbh, 
+            but this is a website where each barangay can post about what's happening in their barangay or some`,
+            image: [
+                '/portfolio/cmuh-1.png',    
+                '/portfolio/cmuh-6-.png',
+                '/portfolio/cmuh-7-.png',
+                '/portfolio/cmuh-2.png',
+                '/portfolio/cmuh-3-.png',
+                '/portfolio/cmuh-4-.png',
+                '/portfolio/cmuh-5-.png',
+                '/portfolio/cmuh-8-.png',
+                '/portfolio/cmuh-9-.png'
+            ],
+            overview: `
+                
+            `,
+            tools_used: [
+                'axios',
+                'pinia',
+                'vuejs',
+                'vuetify',
+                'laravel',
+            ],
+            link: 'https://github.com/joren97x/recipe-hub'
+        },
+        {
+            name: 'Attendance management system',
+            description: `
+            "Attendance Management System is a web-based application designed to streamline attendance 
+            tracking for educational institutions. The system caters to two primary user roles: 
+            students and teachers." - chatgpt
+            `,
+            image: [
+                '/portfolio/asm-6-.png',    
+                '/portfolio/asm-1-.png',    
+                '/portfolio/asm-2-.png',    
+                '/portfolio/asm-3-.png',    
+                '/portfolio/asm-4-.png',    
+                '/portfolio/asm-5-.png',    
+                '/portfolio/asm-7-.png',    
+                '/portfolio/asm-8-.png'    
+            ],
+            overview: `
+                final project in some subject
+            `,
+            tools_used: [
+                'axios',
+                'vuejs',
+                'vuetify',
+                'php',
+                'mysql'
+            ],
+            link: 'https://github.com/joren97x/attendance-management-system'
+        },
+        {
+            name: 'Announcement system',
+            description: `
+            "Announcement System is a web-based platform designed to facilitate communication between 
+            students and administrators within educational institutions. The system supports two primary
+            user roles: students and administrators (admin)." - chatgpt
+            `,
+            image: [
+                '/portfolio/account-management-3-.png',    
+                '/portfolio/account-management-1.png',    
+                '/portfolio/account-management-2-.png',    
+                '/portfolio/account-management-4-.png',    
+                '/portfolio/account-management-5-.png',    
+                '/portfolio/account-management-6-.png',    
+                '/portfolio/account-management-7-.png',    
+                '/portfolio/account-management-8-.png',    
+                '/portfolio/account-management-9-.png' 
+            ],
+            overview: `
+                final project in some subject
+            `,
+            tools_used: [
+                'axios',
+                'vuejs',
+                'vuetify',
+                'php',
+                'mysql'
+            ],
+            link: 'https://github.com/joren97x/account-management-system'
         }
     ]
 
