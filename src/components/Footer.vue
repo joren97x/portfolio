@@ -6,7 +6,9 @@
             <v-row>
                 <v-col cols="12" sm="8" md="9">
                     <p class="font-weight-bold text-h6 my-6">Joren Sumagang</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Veniam deserunt accusamus ullam laboriosam. Quos aspernatur incidunt, dignissimos fugi</p>
+                    <p>
+                        Just a silly boy who takes on the cruel challenges presented by contemporary society.
+                    </p>
                     <v-sheet class="rounded-pill mt-5" color="grey-lighten-5" width="300">
                         <v-list-item title="Superpowers" subtitle="On repeat" href="https://open.spotify.com/track/736PP5LTtREkDgktNmX3Gu" target="_blank">
                             <template v-slot:prepend>

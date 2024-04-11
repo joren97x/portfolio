@@ -10,14 +10,7 @@
                 '/portfolio/calcu.png'
             ],
             overview: `
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-            mollit anim id est laborum
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam 
-            rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                a school project 
             `,
             tools_used: [
                 'java',
@@ -36,12 +29,7 @@
                 '/portfolio/weight-tracker-3.PNG'
             ],
             overview: `
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-            mollit anim id est laborum
-            Sed ut perspiciati.
+                simple weight tracker, made this to learn firebase 
             `,
             tools_used: [
                 'firebase',
@@ -61,7 +49,6 @@
                 '/portfolio/taskplus-3-.PNG',
             ],
             overview: `
-
             made this project to learn express, pinia, sequelize and jsonwebtoken
             `,
             tools_used: [
@@ -104,8 +91,7 @@
         },
         {
             name: 'Cordova Municipality Update Hub',
-            description: `i really dont know whats the purpose of this website tbh, 
-            but this is a website where each barangay can post about what's happening in their barangay or some`,
+            description: `a school project`,
             image: [
                 '/portfolio/cmuh-1.PNG',    
                 '/portfolio/cmuh-6-.PNG',
@@ -118,7 +104,8 @@
                 '/portfolio/cmuh-9-.PNG'
             ],
             overview: `
-                
+            i really dont know whats the purpose of this website tbh, 
+            but this is a website where each barangay can post about what's happening in their barangay or some
             `,
             tools_used: [
                 'axios',
@@ -132,9 +119,7 @@
         {
             name: 'Attendance management system',
             description: `
-            "Attendance Management System is a web-based application designed to streamline attendance 
-            tracking for educational institutions. The system caters to two primary user roles: 
-            students and teachers." - chatgpt
+                school project
             `,
             image: [
                 '/portfolio/asm-6-.png',    
@@ -147,7 +132,9 @@
                 '/portfolio/asm-8-.png'    
             ],
             overview: `
-                final project in some subject
+            "Attendance Management System is a web-based application designed to streamline attendance 
+            tracking for educational institutions. The system caters to two primary user roles: 
+            students and teachers." - chatgpt
             `,
             tools_used: [
                 'axios',
@@ -161,9 +148,7 @@
         {
             name: 'Announcement system',
             description: `
-            "Announcement System is a web-based platform designed to facilitate communication between 
-            students and administrators within educational institutions. The system supports two primary
-            user roles: students and administrators (admin)." - chatgpt
+                a school project again
             `,
             image: [
                 '/portfolio/account-management-3-.PNG',    
@@ -177,7 +162,9 @@
                 '/portfolio/account-management-9-.PNG' 
             ],
             overview: `
-                final project in some subject
+            "Announcement System is a web-based platform designed to facilitate communication between 
+            students and administrators within educational institutions. The system supports two primary
+            user roles: students and administrators (admin)." - chatgpt
             `,
             tools_used: [
                 'axios',

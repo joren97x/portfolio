@@ -7,6 +7,7 @@ const router = createRouter({
             path: '/',
             component: () => import('../components/Index.vue')
         }
+        // i only have one page
     ]
 })
 
