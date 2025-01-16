@@ -8,7 +8,7 @@
             description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!`,
             image: [
-                '/portfolio/asm-6-.png'
+                '/portfolio/images/taytayan-camp-hub.png'
             ],
             tools_used: [
                 'Laravel',
@@ -30,7 +30,7 @@
             description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!`,
             image: [
-                '/portfolio/asm-6-.png'
+                '/portfolio/images/virtucio-caterers.png'
             ],
             tools_used: [
                 'Laravel',
@@ -47,7 +47,7 @@
             description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!`,
             image: [
-                '/portfolio/asm-6-.png'
+                '/portfolio/images/spotify-chat.png'
             ],
             tools_used: [
                 'Express',
@@ -89,15 +89,7 @@
             description: `a school project i really dont know whats the purpose of this website tbh, 
             but this is a website where each barangay can post about what's happening in their barangay or some`,
             image: [
-                '/portfolio/cmuh-1.PNG',    
-                '/portfolio/cmuh-6-.PNG',
-                '/portfolio/cmuh-7-.PNG',
-                '/portfolio/cmuh-2.PNG',
-                '/portfolio/cmuh-3-.PNG',
-                '/portfolio/cmuh-4-.PNG',
-                '/portfolio/cmuh-5-.PNG',
-                '/portfolio/cmuh-8-.PNG',
-                '/portfolio/cmuh-9-.PNG'
+                '/portfolio/images/cordova.png'
             ],
             tools_used: [
                 'VueJs',
@@ -186,7 +178,7 @@
             link: 'https://github.com/joren97x/weight-tracker'
         },
         {
-            name: 'Standard calculator',
+            name: 'Standard Calculator',
             description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!`,
             image: [
@@ -208,7 +200,9 @@
             <div id="free-up-space"></div>
             <p class="text-h4 text-center font-weight-bold">Projects</p>
             <!-- <p class="text-center mt-10">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p> -->
-            <ProjectCard v-for="project in projects" :project="project" :key="project.name"/>
+            <div style="max-width: 1000px; margin: auto;">
+                <ProjectCard v-for="project in projects" :project="project" :key="project.name"/>
+            </div>
         </v-container>
     </v-container>
 </template>
@@ -216,7 +210,7 @@
 <style scoped>
 
     .outer {
-        background: linear-gradient(to bottom, #EEEEEE, #FFFFFF)
+        background: linear-gradient(to bottom, #EEEEEE, #FFFFFF);
     }
 
 </style>

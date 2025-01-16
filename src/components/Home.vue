@@ -3,11 +3,12 @@
 <template>
     <v-container fluid class="text-center" style="height: 80vh">
         <div id="free-up-space"></div>
-        <p id="name" :class="['font-weight-bold', 'name', $vuetify.display.smAndDown ? 'text-h4' : 'text-h2']">Hey, I'm Joren Sumagang</p>
+        <p id="name" :class="['font-weight-bold', 'name', $vuetify.display.smAndDown ? 'text-h4' : 'text-h2']">ayam Joren Sumagang</p>
+        <img src="https://i.pinimg.com/236x/af/af/2a/afaf2a0fb6db7f528ae7328cb4810529.jpg" alt="">
         <v-row justify="center">
             <v-col cols="12" sm="12" md="10"  class="subname font-weight-regular">
                 <p>
-                    Just a silly boy who takes on the cruel challenges presented by contemporary society.
+                    silly boy who takes on the cruel challenges presented by contemporary society.
                     <!-- 10k Roses was soooo mid bruh, only because when I went on the top of the building, a girl was screaming for her life
                     and I grabbed her by the waist and whispered “darling, it's okay for the king has arrived”. 
                     Her heart fluttered with every vocal change, her liquidity differed with every step. -->

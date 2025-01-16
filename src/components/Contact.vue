@@ -63,7 +63,7 @@
     <v-container fluid class="outer">
         <v-container>
             <div id="free-up-space"></div>
-            <p class="text-h3 text-center font-weight-bold">Contact</p>
+            <p class="text-h4 text-center font-weight-bold">Contact</p>
             <p class="text-center mt-10">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
             
             <v-form ref="form">
