@@ -25,11 +25,11 @@
        
         <v-toolbar-title>
             <v-list-item>
-                <template v-slot:prepend>
+                <!-- <template v-slot:prepend>
                     <v-avatar size="50" @click="$emit('navigate', 'home')" v-if="$vuetify.display.width > 400">
                         <v-img src="/portfolio/me.jpg"></v-img>
                     </v-avatar>
-                </template>
+                </template> -->
                 <p class="font-weight-bold text-h5" @click="$emit('navigate', 'home')">Joren Sumagang</p>
             </v-list-item>
         </v-toolbar-title>

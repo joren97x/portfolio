@@ -4,68 +4,67 @@
 
     const projects = [
         {
-            name: 'Standard calculator',
-            description: `just a calculator, nothing special`,
+            name: 'Taytayan Camp Hub',
+            description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!`,
             image: [
-                '/portfolio/calcu.png'
+                '/portfolio/asm-6-.png'
             ],
-            overview: `
-                a school project 
-            `,
             tools_used: [
-                'java',
-                'my insanity'
+                'Laravel',
+                'VueJs',
+                'Quasar',
+                'Pinia',
+                'InertiaJs',
+                'MySQL',
+                'PusherJs',
+                'ChartJs',
+                'Paymongo API',
+                'Google Maps API',
+                'Figma',
             ],
             link: 'https://google.com'
         },
         {
-            name: 'Weight tracker',
-            description: `a simple project i made to track my weight (i only made 1 kg ahahha)`,
+            name: 'Virtucio Caterers',
+            description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!`,
             image: [
-                '/portfolio/weight-tracker-5.PNG',
-                '/portfolio/weight-tracker-2.PNG',
-                '/portfolio/weight-tracker-1.PNG',
-                '/portfolio/weight-tracker-4.PNG',
-                '/portfolio/weight-tracker-3.PNG'
+                '/portfolio/asm-6-.png'
             ],
-            overview: `
-                simple weight tracker, made this to learn firebase 
-            `,
             tools_used: [
-                'firebase',
-                'chart.js',
-                'vue.js',
-                'vuetify',
+                'Laravel',
+                'VueJs',
+                'TailwindCss',
+                'InertiaJs',
+                'MySQL',
+                'Paymongo API',
             ],
-            link: 'https://github.com/joren97x/weight-tracker'
+            link: 'https://google.com'
         },
         {
-            name: 'Todo plus',
-            description: `enhanced or upgraded version of a to-do app`,
+            name: 'Spotify Chat',
+            description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!`,
             image: [
-                '/portfolio/taskplus.PNG',
-                '/portfolio/taskplus-1-.PNG',
-                '/portfolio/taskplus-2-PNG.PNG',
-                '/portfolio/taskplus-3-.PNG',
+                '/portfolio/asm-6-.png'
             ],
-            overview: `
-            made this project to learn express, pinia, sequelize and jsonwebtoken
-            `,
             tools_used: [
-                'axios',
-                'pinia',
-                'vuejs',
-                'vuetify',
-                'jsonwebtoken',
-                'sequelize',
-                'express',
-                'mysql'
+                'Express',
+                'VueJs',
+                'MySQL',
+                'Vuetify',
+                'Pinia',
+                'Socket.io',
+                'Spotify API',
+                'Jsonwebtoken',
             ],
-            link: 'https://github.com/joren97x/task-management-system'
+            link: 'https://google.com'
         },
         {
             name: 'Recipe Hub',
-            description: `a website where you can share your recipes.`,
+            description: `a website where you can share your recipes. This the final project of one of my subjects. The project requires us to do laravel sanctum authentication tokens, CRUD operations.
+                Laravel for backend and vuejs for frontend and api to connect these two mfs`,
             image: [
                 '/portfolio/recipe-hub-1.PNG',
                 '/portfolio/recipe-hub-2.PNG',
@@ -76,22 +75,19 @@
                 '/portfolio/recipe-hub-7.PNG',
                 '/portfolio/recipe-hub-8.PNG'
             ],
-            overview: `
-            This the final project of one of my subjects. The project requires us to do laravel sanctum authentication tokens, CRUD operations.
-                Laravel for backend and vuejs for frontend and api to connect these two mfs.
-            `,
             tools_used: [
-                'axios',
-                'pinia',
-                'vuejs',
-                'vuetify',
-                'laravel',
+                'VueJs',
+                'Vuetify',
+                'Laravel',
+                'Laravel Sanctum',
+                'Pinia',
             ],
             link: 'https://github.com/joren97x/recipe-hub'
         },
         {
             name: 'Cordova Municipality Update Hub',
-            description: `a school project`,
+            description: `a school project i really dont know whats the purpose of this website tbh, 
+            but this is a website where each barangay can post about what's happening in their barangay or some`,
             image: [
                 '/portfolio/cmuh-1.PNG',    
                 '/portfolio/cmuh-6-.PNG',
@@ -103,88 +99,115 @@
                 '/portfolio/cmuh-8-.PNG',
                 '/portfolio/cmuh-9-.PNG'
             ],
-            overview: `
-            i really dont know whats the purpose of this website tbh, 
-            but this is a website where each barangay can post about what's happening in their barangay or some
-            `,
             tools_used: [
-                'axios',
-                'pinia',
-                'vuejs',
-                'vuetify',
-                'laravel',
+                'VueJs',
+                'Vuetify',
+                'Laravel',
+                'InertiaJs',
             ],
             link: 'https://github.com/joren97x/recipe-hub'
         },
         {
-            name: 'Attendance management system',
-            description: `
-                school project
-            `,
+            name: 'Task Management',
+            description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!`,
             image: [
-                '/portfolio/asm-6-.png',    
-                '/portfolio/asm-1-.png',    
-                '/portfolio/asm-2-.png',    
-                '/portfolio/asm-3-.png',    
-                '/portfolio/asm-4-.png',    
-                '/portfolio/asm-5-.png',    
-                '/portfolio/asm-7-.png',    
-                '/portfolio/asm-8-.png'    
+                '/portfolio/weight-tracker-5.PNG',
+                '/portfolio/weight-tracker-2.PNG',
+                '/portfolio/weight-tracker-1.PNG',
+                '/portfolio/weight-tracker-4.PNG',
+                '/portfolio/weight-tracker-3.PNG'
             ],
-            overview: `
-            "Attendance Management System is a web-based application designed to streamline attendance 
-            tracking for educational institutions. The system caters to two primary user roles: 
-            students and teachers." - chatgpt
-            `,
             tools_used: [
-                'axios',
-                'vuejs',
-                'vuetify',
-                'php',
-                'mysql'
+                'Express',
+                'MySQL',
+                'Sequelize',
+                'Jsonwebtoken',
+                'Pinia',
+                'VueJs',
+                'Vuetify',
             ],
-            link: 'https://github.com/joren97x/attendance-management-system'
+            link: 'https://github.com/joren97x/weight-tracker'
         },
         {
-            name: 'Announcement system',
-            description: `
-                a school project again
-            `,
+            name: 'Weight Tracker',
+            description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!`,
             image: [
-                '/portfolio/account-management-3-.PNG',    
-                '/portfolio/account-management-1.PNG',    
-                '/portfolio/account-management-2-.PNG',    
-                '/portfolio/account-management-4-.PNG',    
-                '/portfolio/account-management-5-.PNG',    
-                '/portfolio/account-management-6-.PNG',    
-                '/portfolio/account-management-7-.PNG',    
-                '/portfolio/account-management-8-.PNG',    
-                '/portfolio/account-management-9-.PNG' 
+                '/portfolio/weight-tracker-5.PNG',
+                '/portfolio/weight-tracker-2.PNG',
+                '/portfolio/weight-tracker-1.PNG',
+                '/portfolio/weight-tracker-4.PNG',
+                '/portfolio/weight-tracker-3.PNG'
             ],
-            overview: `
-            "Announcement System is a web-based platform designed to facilitate communication between 
-            students and administrators within educational institutions. The system supports two primary
-            user roles: students and administrators (admin)." - chatgpt
-            `,
             tools_used: [
-                'axios',
-                'vuejs',
-                'vuetify',
-                'php',
-                'mysql'
+                'Firebase',
+                'ChartJs',
+                'VueJs',
+                'Vuetify',
             ],
-            link: 'https://github.com/joren97x/account-management-system'
-        }
+            link: 'https://github.com/joren97x/weight-tracker'
+        },
+        {
+            name: 'Weather Forecast',
+            description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!`,
+            image: [
+                '/portfolio/weight-tracker-5.PNG',
+                '/portfolio/weight-tracker-2.PNG',
+                '/portfolio/weight-tracker-1.PNG',
+                '/portfolio/weight-tracker-4.PNG',
+                '/portfolio/weight-tracker-3.PNG'
+            ],
+            tools_used: [
+                'OpenWeatherMap API',
+                'ChartJs',
+                'VueJs',
+                'Vuetify',
+            ],
+            link: 'https://github.com/joren97x/weight-tracker'
+        },
+        {
+            name: 'Food Options',
+            description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!`,
+            image: [
+                '/portfolio/weight-tracker-5.PNG',
+                '/portfolio/weight-tracker-2.PNG',
+                '/portfolio/weight-tracker-1.PNG',
+                '/portfolio/weight-tracker-4.PNG',
+                '/portfolio/weight-tracker-3.PNG'
+            ],
+            tools_used: [
+                'PHP',
+                'MySQL',
+                'Bootstrap',
+            ],
+            link: 'https://github.com/joren97x/weight-tracker'
+        },
+        {
+            name: 'Standard calculator',
+            description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel unde obcaecati dolor cumque? Voluptatem neque rem facilis alias fugiat!`,
+            image: [
+                '/portfolio/calcu.png'
+            ],
+            tools_used: [
+                'Java',
+            ],
+            link: 'https://google.com'
+        },
+       
     ]
 
 </script>
 
 <template>
-    <v-container fluid class="bg-grey-lighten-4">
-        <v-container>
+    <v-container fluid class="outer">
+        <v-container class="pa-0"> 
             <div id="free-up-space"></div>
-            <p class="text-h3 text-center font-weight-bold">Projects</p>
-            <p class="text-center mt-10">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
+            <p class="text-h4 text-center font-weight-bold">Projects</p>
+            <!-- <p class="text-center mt-10">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p> -->
             <ProjectCard v-for="project in projects" :project="project" :key="project.name"/>
         </v-container>
     </v-container>
